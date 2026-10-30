@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JURAGAN NUSANTARA - Premium Edition</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Nunito',sans-serif;background:#f3e2a8;overflow-x:hidden}
+.header{background:#f7e7a3;display:flex;justify-content:space-between;align-items:center;padding:12px 16px;position:sticky;top:0;z-index:10;border-bottom:4px solid #d9c37a}
+.logo{font-family:'Fredoka',sans-serif;font-weight:800;line-height:0.9;}
+.logo .juragan{display:block;background:#6b2c0d;color:#ffd07a;padding:5px 10px;font-size:19px;transform:rotate(-2deg);border:2px solid #3a1a05;border-radius:5px}
+.logo .nusantara{display:block;background:#ffd07a;color:#6b2c0d;padding:3px 10px;font-size:14px;margin-top:-2px;margin-left:12px;border:2px solid #6b2c0d;border-radius:5px}
+.btn-masuk{background:linear-gradient(#6be06b,#2fb02f);color:white;border:none;padding:10px 26px;border-radius:999px;font-weight:800;font-size:16px;box-shadow:0 4px 0 #1e7a1e,0 3px 10px rgba(0,0,0,.2)}
+.hamburger{width:38px;height:30px;display:flex;flex-direction:column;justify-content:space-between;margin-left:12px}
+.hamburger span{height:5px;background:white;border-radius:3px;display:block}
+.header-right{display:flex;align-items:center}
+.hero{background:radial-gradient(circle at 50% 40%,#fff6c9 0%, #f3e2a8 60%, #e6c98a 100%);min-height:72vh;display:flex;align-items:center;justify-content:center;padding:14px}
+.hero-board{width:100%;max-width:560px;filter:drop-shadow(0 25px 35px rgba(0,0,0,.35))}
+.hero-board img{width:100%;height:auto;border-radius:24px;transform:perspective(1200px) rotateX(12deg) rotateZ(-2deg);border:4px solid #6b2c0d}
+.info{background:#fffaf0;padding:28px 20px 100px 20px;text-align:center}
+.info h1{font-family:'Fredoka',sans-serif;font-size:32px;color:#5a2610}
+.info p{color:#7a4a2a;font-size:14.5px;line-height:1.6;max-width:420px;margin:10px auto}
+.stats{display:flex;gap:10px;margin-top:20px;max-width:420px;margin-left:auto;margin-right:auto}
+.stat{flex:1;background:#fff;border:2px solid #6b2c0d;border-radius:14px;padding:12px 6px;box-shadow:0 4px 0 #d9b06a}
+.stat b{display:block;font-size:17px;color:#6b2c0d}
+.stat span{font-size:11px;color:#8a5a3a}
+.bottom-bar{background:#fffaf0;padding:14px;display:flex;gap:10px;justify-content:center;position:fixed;bottom:0;left:0;right:0;z-index:20;border-top:3px solid #d9c37a}
+.store-btn{display:flex;align-items:center;background:#111;color:white;padding:11px 14px;border-radius:12px;text-decoration:none;font-weight:800;font-size:12px;flex:1;max-width:200px;justify-content:center;border:2px solid #000}
+.store-btn .small{font-weight:400;font-size:10px;opacity:.8}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="logo"><span class="juragan">JURAGAN</span><span class="nusantara">NUSANTARA</span></div>
+  <div class="header-right"><button class="btn-masuk">MASUK</button><div class="hamburger"><span></span><span></span><span></span></div></div>
+</header>
+<div class="hero"><div class="hero-board"><img src="board.jpg" alt="Papan Juragan Nusantara"></div></div>
+<div class="info">
+  <h1>JURAGAN NUSANTARA</h1>
+  <p>Kuasai Pulau Sumatera, Jawa, Bali & Nusa Tenggara, Sulawesi, Maluku & Papua. Beli Bandara, hindari BONCOS, kejar CUAN & GAJIAN!</p>
+  <div class="stats">
+    <div class="stat"><b>5 Pulau</b><span>34 Kota</span></div>
+    <div class="stat"><b>Premium</b><span>Kayu & Batik</span></div>
+    <div class="stat"><b>Multiplayer</b><span>Online</span></div>
+  </div>
+</div>
+<div class="bottom-bar">
+  <a href="#" class="store-btn"><div><div class="small">Download di</div><div>App Store</div></div></a>
+  <a href="#" class="store-btn"><div><div class="small">DAPATKAN DI</div><div>Google Play</div></div></a>
+</div>
+</body>
+</html>
